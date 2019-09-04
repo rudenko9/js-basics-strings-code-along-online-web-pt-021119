@@ -4,4 +4,6 @@ const currentUser = 'Edsger Dijkstra';
 const welcomeMessage = `Welcome to Flatbook, ${currentUser}!`;
 
 const excitedWelcomeMessage = welcomeMessage.toUpperCase();
-const shortGreeting = ... ;
+
+  contains "Welcome, "
+    ReferenceError: shortGreeting is not defined
